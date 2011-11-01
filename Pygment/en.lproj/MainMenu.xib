@@ -407,7 +407,6 @@
 				<array class="NSMutableArray" key="NSSubviews">
 					<object class="NSImageView" id="366752164">
 						<reference key="NSNextResponder" ref="130530149"/>
-						<int key="NSvFlags">45</int>
 						<set class="NSMutableSet" key="NSDragTypes">
 							<string>Apple PDF pasteboard type</string>
 							<string>Apple PICT pasteboard type</string>
@@ -462,7 +461,6 @@
 								<string key="NSFrame">{{173, 10}, {23, 23}}</string>
 								<reference key="NSSuperview" ref="959110984"/>
 								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView"/>
 								<string key="NSReuseIdentifierKey">_NS:3925</string>
 								<bool key="NSEnabled">YES</bool>
 								<bool key="NSIsBordered">YES</bool>

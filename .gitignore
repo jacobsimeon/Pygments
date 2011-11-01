@@ -1,0 +1,64 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.air
+bin-debug
+bin-release
+build
+Build
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# .NET Generated Files #
+########################
+*.pdb
+*.suo
+*.cache
+*/bin/*.xml
+*/obj/
+
+
+# XCode Generated Files #
+########################
+xcuserdata
+
+# OS generated files #
+######################
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+*.DS_Store
+
+#    Project Specific Overrides    #
+####################################
+# allow DLLs in the Web Bin Folder #
+# for project references	   #
+# but not the project DLLs	   #
+# those need to be built!	   #
+####################################
+![PROJECT].Web/bin/*.dll
+[PROJECT].Web/bin/[PROJECT].Core.dll
+[PROJECT].Web/bin/[PROJECT].Web.dll
