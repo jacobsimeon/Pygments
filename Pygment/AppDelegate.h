@@ -7,15 +7,11 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "MenuletController.h"
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
-
-@property (assign) IBOutlet NSWindow *window;
-
-@property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
-@property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
-@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
-
-- (IBAction)saveAction:(id)sender;
-
+@interface AppDelegate : NSObject <NSApplicationDelegate>{
+  IBOutlet MenuletController* pygmentsMenuletController;
+}
+@property (strong)NSStatusItem *pygmentsStatusItem;
+@property (strong)MenuletController *pygmentsMenuletController;
 @end

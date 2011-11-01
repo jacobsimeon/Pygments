@@ -7,17 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1610A42C145F6CF9001A7061 /* PaletteIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1610A42B145F6CF9001A7061 /* PaletteIcon.png */; };
+		1610A42F145F6E96001A7061 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1610A42D145F6E96001A7061 /* MainMenu.xib */; };
 		169B14B5145CA051004B0533 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 169B14B4145CA051004B0533 /* Cocoa.framework */; };
 		169B14BF145CA051004B0533 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 169B14BD145CA051004B0533 /* InfoPlist.strings */; };
 		169B14C1145CA051004B0533 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 169B14C0145CA051004B0533 /* main.m */; };
 		169B14C5145CA051004B0533 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 169B14C3145CA051004B0533 /* Credits.rtf */; };
 		169B14C8145CA051004B0533 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 169B14C7145CA051004B0533 /* AppDelegate.m */; };
-		169B14CB145CA051004B0533 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 169B14C9145CA051004B0533 /* MainMenu.xib */; };
 		169B14CE145CA051004B0533 /* Pygment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 169B14CC145CA051004B0533 /* Pygment.xcdatamodeld */; };
 		169B14D6145CA051004B0533 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 169B14D5145CA051004B0533 /* SenTestingKit.framework */; };
 		169B14D7145CA051004B0533 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 169B14B4145CA051004B0533 /* Cocoa.framework */; };
 		169B14DF145CA052004B0533 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 169B14DD145CA052004B0533 /* InfoPlist.strings */; };
 		169B14E2145CA052004B0533 /* PygmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 169B14E1145CA052004B0533 /* PygmentTests.m */; };
+		16D613EB145CB32F005CD7E9 /* Menulet.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D613EA145CB32F005CD7E9 /* Menulet.m */; };
+		16D613EF145D033D005CD7E9 /* MenuletController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D613EE145D033D005CD7E9 /* MenuletController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,26 +34,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1610A42B145F6CF9001A7061 /* PaletteIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PaletteIcon.png; sourceTree = "<group>"; };
+		1610A42E145F6E96001A7061 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		169B14B0145CA051004B0533 /* Pygment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pygment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		169B14B4145CA051004B0533 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		169B14B7145CA051004B0533 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		169B14B8145CA051004B0533 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		169B14B9145CA051004B0533 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		169B14BC145CA051004B0533 /* Pygment-Info.plist */ = {isa = PBXFileReference; path = "Pygment-Info.plist"; sourceTree = "<group>"; };
+		169B14BC145CA051004B0533 /* Pygment-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pygment-Info.plist"; sourceTree = "<group>"; };
 		169B14BE145CA051004B0533 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		169B14C0145CA051004B0533 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		169B14C2145CA051004B0533 /* Pygment-Prefix.pch */ = {isa = PBXFileReference; path = "Pygment-Prefix.pch"; sourceTree = "<group>"; };
+		169B14C2145CA051004B0533 /* Pygment-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pygment-Prefix.pch"; sourceTree = "<group>"; };
 		169B14C4145CA051004B0533 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		169B14C6145CA051004B0533 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		169B14C6145CA051004B0533 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		169B14C7145CA051004B0533 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		169B14CA145CA051004B0533 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		169B14CD145CA051004B0533 /* Pygment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pygment.xcdatamodel; sourceTree = "<group>"; };
 		169B14D4145CA051004B0533 /* PygmentTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PygmentTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		169B14D5145CA051004B0533 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		169B14DC145CA052004B0533 /* PygmentTests-Info.plist */ = {isa = PBXFileReference; path = "PygmentTests-Info.plist"; sourceTree = "<group>"; };
+		169B14DC145CA052004B0533 /* PygmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PygmentTests-Info.plist"; sourceTree = "<group>"; };
 		169B14DE145CA052004B0533 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		169B14E0145CA052004B0533 /* PygmentTests.h */ = {isa = PBXFileReference; path = PygmentTests.h; sourceTree = "<group>"; };
+		169B14E0145CA052004B0533 /* PygmentTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PygmentTests.h; sourceTree = "<group>"; };
 		169B14E1145CA052004B0533 /* PygmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PygmentTests.m; sourceTree = "<group>"; };
+		16D613E9145CB32F005CD7E9 /* Menulet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menulet.h; sourceTree = "<group>"; };
+		16D613EA145CB32F005CD7E9 /* Menulet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menulet.m; sourceTree = "<group>"; };
+		16D613EC145CB626005CD7E9 /* MenuletDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuletDelegate.h; sourceTree = "<group>"; };
+		16D613ED145D033D005CD7E9 /* MenuletController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuletController.h; sourceTree = "<group>"; };
+		16D613EE145D033D005CD7E9 /* MenuletController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuletController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1610A429145F6CD2001A7061 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1610A42B145F6CF9001A7061 /* PaletteIcon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		169B14A5145CA051004B0533 = {
 			isa = PBXGroup;
 			children = (
@@ -116,9 +133,11 @@
 		169B14BA145CA051004B0533 /* Pygment */ = {
 			isa = PBXGroup;
 			children = (
+				1610A42D145F6E96001A7061 /* MainMenu.xib */,
+				1610A429145F6CD2001A7061 /* Resources */,
+				16D613F0145D1D7B005CD7E9 /* Menulet */,
 				169B14C6145CA051004B0533 /* AppDelegate.h */,
 				169B14C7145CA051004B0533 /* AppDelegate.m */,
-				169B14C9145CA051004B0533 /* MainMenu.xib */,
 				169B14CC145CA051004B0533 /* Pygment.xcdatamodeld */,
 				169B14BB145CA051004B0533 /* Supporting Files */,
 			);
@@ -154,6 +173,18 @@
 				169B14DD145CA052004B0533 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16D613F0145D1D7B005CD7E9 /* Menulet */ = {
+			isa = PBXGroup;
+			children = (
+				16D613E9145CB32F005CD7E9 /* Menulet.h */,
+				16D613EA145CB32F005CD7E9 /* Menulet.m */,
+				16D613EC145CB626005CD7E9 /* MenuletDelegate.h */,
+				16D613ED145D033D005CD7E9 /* MenuletController.h */,
+				16D613EE145D033D005CD7E9 /* MenuletController.m */,
+			);
+			name = Menulet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,7 +259,8 @@
 			files = (
 				169B14BF145CA051004B0533 /* InfoPlist.strings in Resources */,
 				169B14C5145CA051004B0533 /* Credits.rtf in Resources */,
-				169B14CB145CA051004B0533 /* MainMenu.xib in Resources */,
+				1610A42C145F6CF9001A7061 /* PaletteIcon.png in Resources */,
+				1610A42F145F6E96001A7061 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +298,8 @@
 				169B14C1145CA051004B0533 /* main.m in Sources */,
 				169B14C8145CA051004B0533 /* AppDelegate.m in Sources */,
 				169B14CE145CA051004B0533 /* Pygment.xcdatamodeld in Sources */,
+				16D613EB145CB32F005CD7E9 /* Menulet.m in Sources */,
+				16D613EF145D033D005CD7E9 /* MenuletController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +322,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		1610A42D145F6E96001A7061 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1610A42E145F6E96001A7061 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
 		169B14BD145CA051004B0533 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -302,14 +344,6 @@
 				169B14C4145CA051004B0533 /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		169B14C9145CA051004B0533 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				169B14CA145CA051004B0533 /* en */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 		169B14DD145CA052004B0533 /* InfoPlist.strings */ = {
@@ -439,6 +473,7 @@
 				169B14E7145CA052004B0533 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		169B14E8145CA052004B0533 /* Build configuration list for PBXNativeTarget "PygmentTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +482,7 @@
 				169B14EA145CA052004B0533 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
